@@ -1,0 +1,4 @@
+version: 1.0.0
+user_name: dijana
+#user_home_dir: /home/{{user_name}}
+user_groups: adm,docker
