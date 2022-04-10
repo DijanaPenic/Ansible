@@ -1,6 +1,7 @@
 ---
 - name: Wait for ssh connection
   hosts: all
+  gather_facts: no
   tasks: 
     - name: Ensure ssh port open
       ansible.builtin.wait_for:
