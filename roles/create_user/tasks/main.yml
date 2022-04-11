@@ -1,0 +1,4 @@
+- name: Create a new linux user
+  ansible.builtin.user:
+    name: "{{user_name}}"
+    groups: "{{user_groups}}"
